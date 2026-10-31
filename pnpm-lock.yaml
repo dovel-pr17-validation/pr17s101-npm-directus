@@ -165,8 +165,8 @@ settings:
 catalogs:
   default:
     '@ai-sdk/anthropic':
-      specifier: 3.0.58
-      version: 3.0.58
+      specifier: 3.0.136
+      version: 3.0.136
     '@ai-sdk/devtools':
       specifier: 0.0.15
       version: 0.0.15
@@ -1204,7 +1204,7 @@ importers:
     dependencies:
       '@ai-sdk/anthropic':
         specifier: 'catalog:'
-        version: 3.0.58(zod@4.6.7)
+        version: 3.0.136(zod@4.6.7)
       '@ai-sdk/devtools':
         specifier: 'catalog:'
         version: 0.0.15
@@ -3597,8 +3597,8 @@ importers:
 
 packages:
 
-  '@ai-sdk/anthropic@3.0.58':
-    resolution: {integrity: sha512-/53SACgmVukO4bkms4dpxpRlYhW8Ct6QZRe6sj1Pi5H00hYhxIrqfiLbZBGxkdRvjsBQeP/4TVGsXgH5rQeb8Q==}
+  '@ai-sdk/anthropic@3.0.136':
+    resolution: {integrity: sha512-ioxE/YNMDVLSpVqQtEMwk8ruK51klFn7q+s1v9fVsWiaaxCTO3hhBQrwFuExCUqSGOFP76oXpy/mURaxmxMPRQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: 4.6.7
@@ -3639,6 +3639,10 @@ packages:
 
   '@ai-sdk/provider@3.0.16':
     resolution: {integrity: sha512-9Av6kg0t/IN/dcYAAmEJ4B9OPhcEJqwSR+GfHEA8olRkindXpUHadc3p3cyvgFUQFTVm1G5thtsmgZ9yVb2w3A==}
+    engines: {node: '>=18'}
+
+  '@ai-sdk/provider@3.0.19':
+    resolution: {integrity: sha512-5lWq7zSfRaU5ylDESn3sDQjgGl2AI1vjZKO/6JY3aFW70ct4zcP1kN+ZUYOuTXr28fVsYbyu2YFhddLdIgQFZQ==}
     engines: {node: '>=18'}
 
   '@ai-sdk/provider@3.0.8':
@@ -13646,9 +13650,9 @@ packages:
 
 snapshots:
 
-  '@ai-sdk/anthropic@3.0.58(zod@4.6.7)':
+  '@ai-sdk/anthropic@3.0.136(zod@4.6.7)':
     dependencies:
-      '@ai-sdk/provider': 3.0.8
+      '@ai-sdk/provider': 3.0.19
       '@ai-sdk/provider-utils': 4.0.51(zod@4.6.7)
       zod: 4.6.7
 
@@ -13692,6 +13696,10 @@ snapshots:
       zod: 4.6.7
 
   '@ai-sdk/provider@3.0.16':
+    dependencies:
+      json-schema: 0.4.0
+
+  '@ai-sdk/provider@3.0.19':
     dependencies:
       json-schema: 0.4.0
 
